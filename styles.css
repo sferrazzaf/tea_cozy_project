@@ -1,4 +1,4 @@
-:not(.locations_section, .locations_section__location, #locations_section__locations_container) {
+:not(.locations_section, .locations_section__location, #locations_section__locations_container, header) {
     opacity: 0.9;
 }
 
