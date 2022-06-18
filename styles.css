@@ -1,3 +1,7 @@
+:not(.locations_section, .locations_section__location, #locations_section__locations_container) {
+    opacity: 0.9;
+}
+
 body {
     font-family: Helvetica;
     font-size: 22px;
@@ -16,7 +20,6 @@ header {
     z-index: 1;
     display: flex;
     align-items: center;
-    opacity: 0.9;
 }
 
 #logo {
@@ -48,7 +51,6 @@ nav a {
     width: 1200px;
     height: 700px;
     margin: 0 auto 75px auto;
-    opacity: 0.9;
     /* There has to be a better way to get the content to stop hiding behind the header... */
     position: relative;
     top: 70px;
@@ -64,7 +66,6 @@ nav a {
     flex-direction: column;
     width: 1000px;
     margin: 125px auto 0 auto;
-    opacity: 0.9;
 }
 
 #totm_teas {
@@ -117,7 +118,6 @@ nav a {
 }
 
 #locations_section p, h3, h2  {
-    opacity: 0.9;
 }
 
 #contact {
