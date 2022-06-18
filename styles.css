@@ -3,7 +3,6 @@ body {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
     text-align: center;
     margin: 0;
 }
@@ -17,6 +16,7 @@ header {
     z-index: 1;
     display: flex;
     align-items: center;
+    opacity: 0.9;
 }
 
 #logo {
@@ -36,7 +36,7 @@ nav {
 
 nav a {
     padding: 0 10px;
-    color: #fff;
+    color: white;
 }
 
 #mission {
@@ -48,6 +48,7 @@ nav a {
     width: 1200px;
     height: 700px;
     margin: 0 auto 75px auto;
+    opacity: 0.9;
     /* There has to be a better way to get the content to stop hiding behind the header... */
     position: relative;
     top: 70px;
@@ -63,6 +64,7 @@ nav a {
     flex-direction: column;
     width: 1000px;
     margin: 0 auto;
+    opacity: 0.9;
 }
 
 #totm_teas {
@@ -109,13 +111,12 @@ nav a {
 
 .locations_section__location {
     background-color: black;
-    opacity: 1;
     height: 300px;
     width: 300px;
     margin: 0 40px;
 }
 
-#locations_section p, #locations_section h3  {
+#locations_section p, h3, h2  {
     opacity: 0.9;
 }
 
